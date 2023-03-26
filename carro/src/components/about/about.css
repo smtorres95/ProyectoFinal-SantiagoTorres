@@ -1,0 +1,25 @@
+.about{
+    padding: 90px 15% 80px;
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+.about-img img{
+    height: auto;
+    width: 70%;
+}
+.about-text h2{
+    font-size: var(--h2-font);
+    margin-bottom: 2rem;
+    line-height: 1.3;
+}
+.about-text p{
+    font-size: var(--p-font);
+    color: var(--second-color);
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 2.3rem;
+}

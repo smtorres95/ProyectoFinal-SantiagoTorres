@@ -1,0 +1,43 @@
+:root{
+    --text-color: #302e29;
+    --main-color: #fc6436;
+    --second-color: #858585;
+    --big-font: 4.5rem;
+    --h2-font: 2.6rem;
+    --p-font: 1.4rem;
+    }
+.contact {
+    padding: 100px;
+    margin-left: 88px;
+}
+
+.main-contact {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 100px));
+    gap: 1rem;
+}
+
+.contact-content h4 {
+    font-size: 40px;
+    color: var(--second-color);
+    text-decoration:dotted ;
+    margin-bottom: 1.5rem;
+}
+.contact-content li {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+}
+.contact-content li a{
+    display: flex;
+    flex-direction: row;
+    color: var(--text-color);
+    font-size: 25px;
+    font-weight: 600;
+    transition: all .38s ease;
+    text-decoration: none;
+}
+.contact-content li a:hover {
+    transform: translateX(10px);
+    color: var(--main-color);
+}
